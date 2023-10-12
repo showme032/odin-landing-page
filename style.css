@@ -24,12 +24,16 @@ body {
 .header-links {
     display: flex;
     list-style: none;
+    padding: 0;
     margin: 0;
     gap: 32px;
-    color: #E5E7EB;
     font-size: 18px;
     font-weight: 300;
+}
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .content-one {
@@ -58,7 +62,7 @@ body {
 
 #hero-button {
     align-self: flex-start;
-    background-color: #0088ff;
+    background-color: #3882F6;
     color: #F9FAF8;
     font-weight: 600;
     padding: 8px 32px;
@@ -103,7 +107,7 @@ body {
 .card-image {
     width: 150px;
     height: 150px;
-    border: solid 4px #0088ff;
+    border: solid 4px #3882F6;
     border-radius: 16px;
 }
 
@@ -112,7 +116,7 @@ body {
 }
 
 .section-three{
-    padding: 64px 15%;
+    padding: 96px 15%;
     background-color: #E5E7EB;
 }
 
@@ -130,4 +134,46 @@ body {
     font-weight: 600;
     color: #1F2937;
     text-align: end;
+}
+
+.section-four {
+    padding: 96px 15%;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 128px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.action-head {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.action-body {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.action-button {
+    align-self: flex-end;
+    padding: 8px 32px;
+    color: white;
+    background-color: #3882F6;
+    border: solid 2px white;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.footer {
+    padding: 32px 0px;
+    background-color: #1F2937;
+    color: white;
+    font-size: 16px;
+    text-align: center;
 }
