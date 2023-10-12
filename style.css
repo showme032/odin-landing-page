@@ -73,11 +73,10 @@ body {
 }
 
 .section-two {
-    padding: 32px 15%;
+    padding: 48px 15%;
 }
 
 .header-two {
-    margin: 8px 0px;
     text-align: center;
     font-size: 32px;
     font-weight: 700;
@@ -88,7 +87,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 48px;
-    gap: 64px;
+    gap: 96px;
 }
 
 .card {
@@ -110,4 +109,25 @@ body {
 
 .card-text {
     color: #868686;
+}
+
+.section-three{
+    padding: 64px 15%;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    padding: 16px 96px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937
+}
+
+.author {
+    padding: 12px 96px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1F2937;
+    text-align: end;
 }
